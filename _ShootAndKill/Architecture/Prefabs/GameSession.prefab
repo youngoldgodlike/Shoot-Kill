@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6965194647259130801
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6727409158648824526}
+  - component: {fileID: 1765390948240647013}
+  - component: {fileID: 2472949178672011104}
+  - component: {fileID: 804114461117208062}
+  m_Layer: 0
+  m_Name: GameSession
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6727409158648824526
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6965194647259130801}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1102.5061, y: 850.8076, z: 5.9093995}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1765390948240647013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6965194647259130801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74b845bb27610df4a81ed7201a40c45b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2472949178672011104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6965194647259130801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 309c5fdf206bc4b4bbf16628c5df6c56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _config: {fileID: 11400000, guid: cddbd784a21c8ac439625dfb26dd169c, type: 2}
+  _weaponsData: {fileID: 11400000, guid: 099e2c20a71b9404594f994c917d6c22, type: 2}
+  _expSystemConfig: {fileID: 11400000, guid: 9aeb3b2d2cdd4de459049fa61fc09f9f, type: 2}
+  <heroData>k__BackingField:
+    <direction>k__BackingField: {x: 0, y: 0, z: 0}
+    <healthData>k__BackingField:
+      <health>k__BackingField:
+        <maxValue>k__BackingField: 0
+    <moveSpeed>k__BackingField:
+      <maxValue>k__BackingField: 0
+    <dashDelay>k__BackingField:
+      delay:
+        <maxValue>k__BackingField: 0
+      _timesUp: 0
+    <dashForce>k__BackingField: 0
+  <expSystemData>k__BackingField:
+    <maxExp>k__BackingField: 0
+    _growthFactor: 0
+    onLevelUp:
+      m_PersistentCalls:
+        m_Calls: []
+  <currentWeaponData>k__BackingField:
+    <id>k__BackingField: 0
+    <gun>k__BackingField: {fileID: 0}
+    <animator>k__BackingField: {fileID: 0}
+  <currentGun>k__BackingField: {fileID: 0}
+--- !u!114 &804114461117208062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6965194647259130801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72b1a9e8c2234d2a9ebe10efa39c590d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioMixer: {fileID: 24100000, guid: d645f876748690e4581032157e8040d6, type: 2}

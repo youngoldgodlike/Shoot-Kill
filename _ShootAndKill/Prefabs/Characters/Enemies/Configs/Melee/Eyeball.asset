@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fbf0e64167d476091c6fc3bb2dfa467, type: 3}
+  m_Name: Eyeball
+  m_EditorClassIdentifier: 
+  _prefab: {fileID: 7012515657620425165, guid: 5360436a358698e41b9075f6c989b2c2, type: 3}
+  _fullname: Eyeball
+  _health: 50
+  _damage: 6
+  _attackDistance: 3
+  _stopDistance: 2.5
+  _motionSpeed: 1
+  _expQuantity: 15
+  _additionalPower: 0

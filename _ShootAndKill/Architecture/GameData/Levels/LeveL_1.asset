@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b7a6ce1a1c1fde4c9d376d7bfcc259c, type: 3}
+  m_Name: LeveL_1
+  m_EditorClassIdentifier: 
+  waves:
+  - _regularEnemies:
+    - _enemyData: {fileID: 11400000, guid: ba0bf0c61dfb93542a4c5c62d000be67, type: 2}
+      _requiredQuantity: 10
+      _spawnCooldown: 5
+    _onetimeEnemies:
+    - _enemyData: {fileID: 11400000, guid: fe5f09638f196da458ef0a5aeb8471a0, type: 2}
+      _requiredQuantity: 15
+      _spawnCooldown: 6
+    _waveDuration: 90
+    _statsMultiplier: 1
+    _waveType: 0
+  - _regularEnemies:
+    - _enemyData: {fileID: 11400000, guid: fe5f09638f196da458ef0a5aeb8471a0, type: 2}
+      _requiredQuantity: 2
+      _spawnCooldown: 4
+    - _enemyData: {fileID: 11400000, guid: ba0bf0c61dfb93542a4c5c62d000be67, type: 2}
+      _requiredQuantity: 2
+      _spawnCooldown: 4
+    _onetimeEnemies:
+    - _enemyData: {fileID: 11400000, guid: fe5f09638f196da458ef0a5aeb8471a0, type: 2}
+      _requiredQuantity: 10
+      _spawnCooldown: 1
+    _waveDuration: 120
+    _statsMultiplier: 1.1
+    _waveType: 0
+  - _regularEnemies:
+    - _enemyData: {fileID: 11400000, guid: ba0bf0c61dfb93542a4c5c62d000be67, type: 2}
+      _requiredQuantity: 3
+      _spawnCooldown: 5
+    _onetimeEnemies:
+    - _enemyData: {fileID: 11400000, guid: ba0bf0c61dfb93542a4c5c62d000be67, type: 2}
+      _requiredQuantity: 20
+      _spawnCooldown: 0.2
+    _waveDuration: 120
+    _statsMultiplier: 1.2
+    _waveType: 0
+  - _regularEnemies:
+    - _enemyData: {fileID: 11400000, guid: ba0bf0c61dfb93542a4c5c62d000be67, type: 2}
+      _requiredQuantity: 2
+      _spawnCooldown: 5
+    - _enemyData: {fileID: 11400000, guid: fe5f09638f196da458ef0a5aeb8471a0, type: 2}
+      _requiredQuantity: 2
+      _spawnCooldown: 2
+    _onetimeEnemies:
+    - _enemyData: {fileID: 11400000, guid: fe5f09638f196da458ef0a5aeb8471a0, type: 2}
+      _requiredQuantity: 15
+      _spawnCooldown: 0.2
+    _waveDuration: 120
+    _statsMultiplier: 1.3
+    _waveType: 0
+  - _regularEnemies:
+    - _enemyData: {fileID: 11400000, guid: ba0bf0c61dfb93542a4c5c62d000be67, type: 2}
+      _requiredQuantity: 5
+      _spawnCooldown: 2
+    _onetimeEnemies:
+    - _enemyData: {fileID: 11400000, guid: e3bb71c359db5c1439f355a799af8b9c, type: 2}
+      _requiredQuantity: 1
+      _spawnCooldown: 1
+    _waveDuration: 60
+    _statsMultiplier: 1.5
+    _waveType: 1

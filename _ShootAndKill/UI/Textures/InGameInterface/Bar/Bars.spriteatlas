@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Bars
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 3a7699006c6ef984f87ef1e8a42032c0, type: 3}
+    - {fileID: 2800000, guid: 02287643969d8a44491225b422bc4c62, type: 3}
+    - {fileID: 2800000, guid: 82bc4115703e81a42b445c61fe79bb3e, type: 3}
+    - {fileID: 2800000, guid: f2c56de479a46f94cb4834b0c21cfd63, type: 3}
+    - {fileID: 2800000, guid: cf8c5089339d4c547a0a577159309191, type: 3}
+    - {fileID: 2800000, guid: 3f49eedd5c1bc2348bb2616a831ff9ea, type: 3}
+    - {fileID: 2800000, guid: af3678049bbce0a4293614667b4813c1, type: 3}
+    - {fileID: 2800000, guid: 036ec022fe1cc954483042ed7181eee6, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 3a7699006c6ef984f87ef1e8a42032c0: 21300000
+    - 036ec022fe1cc954483042ed7181eee6: 21300000
+    - 02287643969d8a44491225b422bc4c62: 21300000
+    - af3678049bbce0a4293614667b4813c1: 21300000
+    - f2c56de479a46f94cb4834b0c21cfd63: 21300000
+    - 82bc4115703e81a42b445c61fe79bb3e: 21300000
+    - 3f49eedd5c1bc2348bb2616a831ff9ea: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 3a7699006c6ef984f87ef1e8a42032c0, type: 3}
+  - {fileID: 21300000, guid: 036ec022fe1cc954483042ed7181eee6, type: 3}
+  - {fileID: 21300000, guid: 02287643969d8a44491225b422bc4c62, type: 3}
+  - {fileID: 21300000, guid: af3678049bbce0a4293614667b4813c1, type: 3}
+  - {fileID: 21300000, guid: f2c56de479a46f94cb4834b0c21cfd63, type: 3}
+  - {fileID: 21300000, guid: 82bc4115703e81a42b445c61fe79bb3e, type: 3}
+  - {fileID: 21300000, guid: 3f49eedd5c1bc2348bb2616a831ff9ea, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Back
+  - Red1
+  - Button
+  - ProgeressBar
+  - HP
+  - Exp
+  - HP_Frame
+  m_RenderDataMap: {}
+  m_Tag: Bars
+  m_IsVariant: 0
